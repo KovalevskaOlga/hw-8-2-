@@ -1,0 +1,24 @@
+.list {
+  list-style: none;
+}
+.list:nth-child(even) {
+  color: green;
+}
+.list:nth-child(odd) {
+  color: goldenrod;
+}
+.list:nth-child(3n) {
+  color: purple;
+}
+.list:nth-child(7n) {
+  color: aqua;
+}
+.list:last-child {
+  color: darkslategrey;
+}
+.list:first-child {
+  color: blue;
+}
+h2 {
+  color: darkred;
+}
